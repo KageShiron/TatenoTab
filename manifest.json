@@ -1,0 +1,8 @@
+{
+  "manifest_version": 2,
+  "name": "TatenoTab",
+  "version": "0.01",
+  "description" : "Vertical tabs for sidebar.",
+  "author" : "KageShiron",
+  "permissions" : ["tabs","webNavigation","chrome://favicon/"] 
+}
