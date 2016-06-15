@@ -1,0 +1,29 @@
+li , h3 ,ul{
+    margin:0;
+    padding:0;
+}
+
+h3{
+    padding:1em;
+}
+#tablist li.tab
+{
+    border:1px solid #999;
+    border-radius:3px;
+}
+
+#tablist ul{
+    list-style-type:none;
+}
+
+#tablist li.tab a{
+    display:block;
+    text-decoraion:none;
+    color:black;
+    padding:1em;
+}
+
+#tablist h3 {
+    border:1px solid #999;
+    background:#CCC;
+}
