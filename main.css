@@ -8,8 +8,14 @@ h3{
 }
 #tablist li.tab
 {
-    border:1px solid #999;
-    border-radius:3px;
+    border-bottom:1px solid #CCC;
+}
+#tablist li.tab:hover{
+    background-color:#FFF9F0;
+}
+#tablist li.tab.selected:hover{
+
+    background-color:#FDD;
 }
 
 #tablist ul{
@@ -18,12 +24,15 @@ h3{
 
 #tablist li.tab a{
     display:block;
-    text-decoraion:none;
+    text-decoration:none;
     color:black;
-    padding:1em;
+    padding:1em 0;
+    white-space:nowrap;
 }
 
 #tablist h3 {
-    border:1px solid #999;
     background:#CCC;
+}
+li.selected{
+    background-color:#FEE;
 }
